@@ -1,6 +1,5 @@
 import { Container } from "@/components/Container";
-import Image from "next/image";
-import React from "react";
+import { SectionTitle } from "./SectionTitle";
 
 interface locationsProps {
   data: {
@@ -15,7 +14,8 @@ export const Locations = (props: locationsProps) => {
 
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+      <SectionTitle preTitle="Our Locations" title="Your Gateway to Quality Service" />
+      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3 mt-10">
         {data.map((item, index) => (
           <div key={`${index}-${item.address}`}>
             <div className="flex flex-col justify-between size-full bg-gray-100 rounded-2xl dark:bg-trueGray-800 gap-4 p-6 text-lg leading-normal text-center">
