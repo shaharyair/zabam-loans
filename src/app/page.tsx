@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
 
       <Benefits data={benefitOne} id={benefitOne.id} />
-      <Benefits imgPos="right" data={benefitTwo} id={benefitTwo.id} />
+      {/* <Benefits imgPos="right" data={benefitTwo} id={benefitTwo.id} /> */}
 
       <SectionTitle preTitle="Testimonials" title="Here's what our customers said">
         Discover how our clients have achieved their financial goals
@@ -20,12 +20,12 @@ export default function Home() {
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Here are some common questions we receive from our clients, along with their answers. Feel free to reach
         out!
       </SectionTitle>
 
-      <Faq />
+      <Faq /> */}
     </Container>
   );
 }
