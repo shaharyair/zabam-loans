@@ -13,43 +13,29 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Zabam Loans made the process <Mark>so easy</Mark>! Their team understood my needs and got me approved in no time
             </p>
 
-            <Avatar
-              image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
-            />
+            <Avatar image={userOneImg} name="Sarah T." title="Freelance Graphic Designer" />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              I appreciate the <Mark>personalized support</Mark> from Zabam Loans. They helped me find the perfect loan for my
+              business
             </p>
 
-            <Avatar
-              image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
-            />
+            <Avatar image={userTwoImg} name="David R." title="Owner of a Local Cafe" />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              Fast approvals and great service! Zabam Loans helped me finance my home renovation <Mark>effortlessly</Mark>
             </p>
 
-            <Avatar
-              image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
-            />
+            <Avatar image={userThreeImg} name="Michael F." title="Real Estate Agent" />
           </div>
         </div>
       </div>
@@ -67,13 +53,7 @@ function Avatar(props: Readonly<AvatarProps>) {
   return (
     <div className="flex items-center mt-8 space-x-3">
       <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
-        <Image
-          src={props.image}
-          width="40"
-          height="40"
-          alt="Avatar"
-          placeholder="blur"
-        />
+        <Image src={props.image} width="40" height="40" alt="Avatar" placeholder="blur" />
       </div>
       <div>
         <div className="text-lg font-medium">{props.name}</div>
