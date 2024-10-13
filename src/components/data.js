@@ -160,6 +160,10 @@ const navigation = [
     href: "/",
   },
   {
+    label: "Benefits of Non-Bank Loans",
+    href: "/non-bank-loan-benefits",
+  },
+  {
     label: "Locations",
     href: "/locations",
   },
