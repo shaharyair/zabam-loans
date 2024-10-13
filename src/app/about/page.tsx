@@ -3,7 +3,7 @@ import { Container } from "../../components/Container";
 export default function Home() {
   return (
     <Container>
-      <div className="w-full flex flex-col justify-center items-start">
+      <div className="w-full flex flex-col justify-center items-start max-w-5xl m-auto">
         <div className="mb-6">
           <span className="text-lg font-semibold">
             We are Zabam Loans, License Number – 662801, a leading company in the non-bank loan sector.
