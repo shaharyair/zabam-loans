@@ -3,7 +3,7 @@ import { Container } from "../../components/Container";
 export default function Home() {
   return (
     <Container>
-      <div className="w-full flex flex-col justify-center items-start">
+      <div className="w-full flex flex-col justify-center items-start max-w-5xl m-auto">
         <div className="text-2xl font-bold mb-4">What is a Quick Non-Bank Loan?</div>
         <div className="mb-4">
           <span className="block mb-2">
