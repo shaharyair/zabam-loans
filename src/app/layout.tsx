@@ -23,6 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
         <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>
